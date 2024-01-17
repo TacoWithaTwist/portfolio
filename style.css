@@ -1,0 +1,28 @@
+/* #F4E409 MAIN*/
+/* #EEBA0B ACCENT*/
+/* #C36F09 ACCENT*/
+* {
+  font-family: 'Playfair Display';
+  list-style-type: none;
+}
+body {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  gap: 10vw;
+}
+.myProfile {
+  height: 100vh;
+  width: 20vw;
+  background-color: #f4e409;
+}
+.myFace {
+  margin: 10%;
+  height: 25%;
+}
+.me {
+  border-radius: 50%;
+  height: 25vh;
+  width: 10vw;
+  object-fit: cover;
+}
